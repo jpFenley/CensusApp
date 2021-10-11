@@ -2,6 +2,7 @@ library(shiny)
 library(maps)
 library(ggplot2)
 library(mapproj)
+source("helpers.R")
 
 counties <- readRDS("counties.rds")
 head(counties)
